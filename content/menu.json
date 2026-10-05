@@ -1,0 +1,603 @@
+[
+  {
+    "id": "cinnamon-rolls",
+    "name": "Cinnamon rolls",
+    "description": "Slow-risen sourdough rolls with a cinnamon-sugar swirl and a thin vanilla glaze. Baked for your day, not pulled from a case.",
+    "category": "morning",
+    "art": "roll",
+    "image": "/menu/cinnamon-rolls.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 600
+      },
+      {
+        "id": "four",
+        "label": "Pack of 4",
+        "priceCents": 2200
+      },
+      {
+        "id": "six",
+        "label": "Pack of 6",
+        "priceCents": 3200
+      }
+    ]
+  },
+  {
+    "id": "oatmeal-cream-pies",
+    "name": "Oatmeal cream pies",
+    "description": "Soft oatmeal cookies with a cinnamon cream filling. A small-batch version of the lunchbox classic.",
+    "category": "cookies",
+    "art": "sandwich",
+    "image": "/menu/oatmeal-cream-pies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, oats, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 500
+      },
+      {
+        "id": "four",
+        "label": "Pack of 4",
+        "priceCents": 1800
+      },
+      {
+        "id": "six",
+        "label": "Pack of 6",
+        "priceCents": 2600
+      }
+    ]
+  },
+  {
+    "id": "cookies",
+    "name": "Cookies",
+    "description": "A mixed box of our sourdough cookies. Name a favorite in the order notes, or let the kitchen choose.",
+    "category": "cookies",
+    "art": "cookie",
+    "image": "/menu/cookies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs. Some flavors include peanuts.",
+    "options": [
+      {
+        "id": "half-dozen",
+        "label": "Half dozen, mixed",
+        "priceCents": 2400
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen, mixed",
+        "priceCents": 4400
+      }
+    ]
+  },
+  {
+    "id": "chocolate-chip-cookies",
+    "name": "Chocolate chip cookies",
+    "description": "Sourdough chocolate chip cookies with a soft middle and a toasted edge. Made to order, so they go out fresh.",
+    "category": "cookies",
+    "art": "cookie",
+    "image": "/menu/chocolate-chip-cookies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 400
+      },
+      {
+        "id": "half-dozen",
+        "label": "Half dozen",
+        "priceCents": 2200
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 4200
+      }
+    ]
+  },
+  {
+    "id": "sugar-cookies",
+    "name": "Sugar cookies",
+    "description": "A tender sourdough sugar cookie with a crackled top. Plain, the way a good sugar cookie should be.",
+    "category": "cookies",
+    "art": "cookie",
+    "image": "/menu/sugar-cookies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 400
+      },
+      {
+        "id": "half-dozen",
+        "label": "Half dozen",
+        "priceCents": 2200
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 4200
+      }
+    ]
+  },
+  {
+    "id": "snickerdoodles",
+    "name": "Snickerdoodles",
+    "description": "Cinnamon-sugar snickerdoodles with a soft center. The dough is sourdough, and the coating is generous.",
+    "category": "cookies",
+    "art": "cookie",
+    "image": "/menu/snickerdoodles.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 400
+      },
+      {
+        "id": "half-dozen",
+        "label": "Half dozen",
+        "priceCents": 2200
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 4200
+      }
+    ]
+  },
+  {
+    "id": "peanut-butter-cookies",
+    "name": "Peanut butter cookies",
+    "description": "Thick peanut butter cookies with a crosshatch top and a salty edge.",
+    "category": "cookies",
+    "art": "cookie",
+    "image": "/menu/peanut-butter-cookies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, eggs, and peanuts",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 400
+      },
+      {
+        "id": "half-dozen",
+        "label": "Half dozen",
+        "priceCents": 2200
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 4200
+      }
+    ]
+  },
+  {
+    "id": "monster-cookies",
+    "name": "Monster cookies",
+    "description": "Oats, chocolate, peanut butter, and candy in one hearty cookie.",
+    "category": "cookies",
+    "art": "cookie",
+    "image": "/menu/monster-cookies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, oats, dairy, eggs, and peanuts",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 450
+      },
+      {
+        "id": "half-dozen",
+        "label": "Half dozen",
+        "priceCents": 2500
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 4600
+      }
+    ]
+  },
+  {
+    "id": "brownies",
+    "name": "Brownies",
+    "description": "Fudgy sourdough brownies with a shiny top. Cut after they set and packed the day you pick them up.",
+    "category": "bars",
+    "art": "brownie",
+    "image": "/menu/brownies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 500
+      },
+      {
+        "id": "six",
+        "label": "Pack of 6",
+        "priceCents": 2800
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 5200
+      }
+    ]
+  },
+  {
+    "id": "blondies",
+    "name": "Blondies",
+    "description": "Brown-sugar blondies with a chewy middle. A quieter cousin of the brownie, still made to order.",
+    "category": "bars",
+    "art": "blondie",
+    "image": "/menu/blondies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 500
+      },
+      {
+        "id": "six",
+        "label": "Pack of 6",
+        "priceCents": 2800
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 5200
+      }
+    ]
+  },
+  {
+    "id": "rice-krispie-treats",
+    "name": "Rice Krispie treats",
+    "description": "Butter, marshmallow, and cereal, pressed into thick squares. Handmade in our kitchen, without sourdough.",
+    "category": "bars",
+    "art": "krispie",
+    "image": "/menu/rice-krispie-treats.jpg",
+    "availability": "available",
+    "allergens": "Dairy. The cereal may contain gluten.",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 350
+      },
+      {
+        "id": "six",
+        "label": "Pack of 6",
+        "priceCents": 1800
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 3400
+      }
+    ]
+  },
+  {
+    "id": "whoopie-pies",
+    "name": "Whoopie pies",
+    "description": "Soft cocoa cakes with a cream filling. A small-batch whoopie, not a grocery package.",
+    "category": "cookies",
+    "art": "whoopie",
+    "image": "/menu/whoopie-pies.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 550
+      },
+      {
+        "id": "four",
+        "label": "Pack of 4",
+        "priceCents": 2000
+      },
+      {
+        "id": "six",
+        "label": "Pack of 6",
+        "priceCents": 3000
+      }
+    ]
+  },
+  {
+    "id": "cupcakes",
+    "name": "Cupcakes",
+    "description": "Sourdough cupcakes with a simple buttercream. Choose vanilla, chocolate, or a mix.",
+    "category": "cakes",
+    "art": "cupcake",
+    "image": "/menu/cupcakes.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single-vanilla",
+        "label": "Single, vanilla",
+        "priceCents": 450
+      },
+      {
+        "id": "single-chocolate",
+        "label": "Single, chocolate",
+        "priceCents": 450
+      },
+      {
+        "id": "half-vanilla",
+        "label": "Half dozen, vanilla",
+        "priceCents": 2500
+      },
+      {
+        "id": "half-chocolate",
+        "label": "Half dozen, chocolate",
+        "priceCents": 2500
+      },
+      {
+        "id": "half-mixed",
+        "label": "Half dozen, mixed",
+        "priceCents": 2500
+      },
+      {
+        "id": "dozen-vanilla",
+        "label": "Dozen, vanilla",
+        "priceCents": 4800
+      },
+      {
+        "id": "dozen-chocolate",
+        "label": "Dozen, chocolate",
+        "priceCents": 4800
+      },
+      {
+        "id": "dozen-mixed",
+        "label": "Dozen, mixed",
+        "priceCents": 4800
+      }
+    ]
+  },
+  {
+    "id": "muffins",
+    "name": "Muffins",
+    "description": "Sourdough muffins baked for your pickup morning. Blueberry is the house bake. Plain is here if you want it.",
+    "category": "morning",
+    "art": "muffin",
+    "image": "/menu/muffins.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single-blueberry",
+        "label": "Single, blueberry",
+        "priceCents": 450
+      },
+      {
+        "id": "single-plain",
+        "label": "Single, plain",
+        "priceCents": 450
+      },
+      {
+        "id": "half-blueberry",
+        "label": "Half dozen, blueberry",
+        "priceCents": 2500
+      },
+      {
+        "id": "half-plain",
+        "label": "Half dozen, plain",
+        "priceCents": 2500
+      },
+      {
+        "id": "dozen-blueberry",
+        "label": "Dozen, blueberry",
+        "priceCents": 4800
+      },
+      {
+        "id": "dozen-plain",
+        "label": "Dozen, plain",
+        "priceCents": 4800
+      }
+    ]
+  },
+  {
+    "id": "scones",
+    "name": "Scones",
+    "description": "Cream scones with a light sugar top, made with sourdough. Plain or blueberry.",
+    "category": "morning",
+    "art": "scone",
+    "image": "/menu/scones.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single-plain",
+        "label": "Single, plain",
+        "priceCents": 450
+      },
+      {
+        "id": "single-blueberry",
+        "label": "Single, blueberry",
+        "priceCents": 450
+      },
+      {
+        "id": "half-plain",
+        "label": "Half dozen, plain",
+        "priceCents": 2500
+      },
+      {
+        "id": "half-blueberry",
+        "label": "Half dozen, blueberry",
+        "priceCents": 2500
+      },
+      {
+        "id": "dozen-plain",
+        "label": "Dozen, plain",
+        "priceCents": 4800
+      },
+      {
+        "id": "dozen-blueberry",
+        "label": "Dozen, blueberry",
+        "priceCents": 4800
+      }
+    ]
+  },
+  {
+    "id": "banana-bread",
+    "name": "Banana bread",
+    "description": "A full loaf of sourdough banana bread. We leave it whole unless you ask us to slice it. Serves about 8.",
+    "category": "breads",
+    "art": "loaf",
+    "image": "/menu/banana-bread.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "loaf",
+        "label": "One loaf",
+        "priceCents": 1800
+      }
+    ]
+  },
+  {
+    "id": "pumpkin-bread",
+    "name": "Pumpkin bread",
+    "description": "Sourdough pumpkin bread with warm spice. A full loaf, made to order. Serves about 8.",
+    "category": "breads",
+    "art": "loaf",
+    "image": "/menu/pumpkin-bread.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "loaf",
+        "label": "One loaf",
+        "priceCents": 1800
+      }
+    ]
+  },
+  {
+    "id": "zucchini-bread",
+    "name": "Zucchini bread",
+    "description": "Sourdough zucchini bread, not too sweet, with a soft crumb. A full loaf. Serves about 8.",
+    "category": "breads",
+    "art": "loaf",
+    "image": "/menu/zucchini-bread.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "loaf",
+        "label": "One loaf",
+        "priceCents": 1800
+      }
+    ]
+  },
+  {
+    "id": "lemon-loaf",
+    "name": "Lemon loaf",
+    "description": "A bright lemon loaf with a tart glaze. Sourdough, and a full loaf. Serves about 8.",
+    "category": "breads",
+    "art": "loaf",
+    "image": "/menu/lemon-loaf.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "loaf",
+        "label": "One loaf",
+        "priceCents": 2000
+      }
+    ]
+  },
+  {
+    "id": "coffee-cake",
+    "name": "Coffee cake",
+    "description": "A sourdough coffee cake with a thick cinnamon crumb. Serves about 10.",
+    "category": "cakes",
+    "art": "coffee",
+    "image": "/menu/coffee-cake.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "cake",
+        "label": "One cake",
+        "priceCents": 3400
+      }
+    ]
+  },
+  {
+    "id": "crumb-cake",
+    "name": "Crumb cake",
+    "description": "More crumb than cake, on a tender sourdough base. Vanilla, not cinnamon. Serves about 10.",
+    "category": "cakes",
+    "art": "coffee",
+    "image": "/menu/crumb-cake.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "cake",
+        "label": "One cake",
+        "priceCents": 3400
+      }
+    ]
+  },
+  {
+    "id": "pound-cake",
+    "name": "Pound cake",
+    "description": "A classic butter pound cake made with sourdough. No frosting, just the cake. Serves about 8.",
+    "category": "cakes",
+    "art": "pound",
+    "image": "/menu/pound-cake.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "cake",
+        "label": "One cake",
+        "priceCents": 3000
+      }
+    ]
+  },
+  {
+    "id": "cake-pops",
+    "name": "Cake pops",
+    "description": "Bite-size cake on a stick, dipped and finished by hand. Leave a color note if the order is for a party.",
+    "category": "cakes",
+    "art": "pop",
+    "image": "/menu/cake-pops.jpg",
+    "availability": "available",
+    "allergens": "Wheat, dairy, and eggs",
+    "options": [
+      {
+        "id": "single",
+        "label": "Single",
+        "priceCents": 350
+      },
+      {
+        "id": "six",
+        "label": "Pack of 6",
+        "priceCents": 1900
+      },
+      {
+        "id": "dozen",
+        "label": "Dozen",
+        "priceCents": 3600
+      }
+    ]
+  }
+]

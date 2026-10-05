@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sweet and Sour
 
-## Getting Started
+Handmade sourdough desserts, baked to order in Rochester, NY.
 
-First, run the development server:
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Edit the menu without a code change
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Sign-in for the editor is `/manage`. Set `MANAGE_PASSWORD` in `.env.local`, then restart the dev server. From there you can change names, descriptions, prices, availability, ordering rules, and upload photos.
 
-## Learn More
+The same data lives in:
 
-To learn more about Next.js, take a look at the following resources:
+- `content/menu.json` — desserts, prices (cents), photos, sold-out or hidden
+- `content/settings.json` — phone, email, hours, lead time, delivery fee, towns
+- `public/menu/` — product photos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A photo path looks like `/menu/cinnamon-rolls.jpg`. Until a photo is set, the site shows an original drawing.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Payments
 
-## Deploy on Vercel
+Guest checkout is built for Sweet and Sour’s own Stripe account. Leave `STRIPE_SECRET_KEY` empty until that account is ready. The checkout button then explains that payment will use their Stripe, and no card is charged.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+When the bakery has a key, copy `.env.example` to `.env.local` and set `STRIPE_SECRET_KEY` to their restricted key (`rk_`). A test key from that same account shows a banner and does not make a real charge. Test card: `4242 4242 4242 4242`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pickup is free. Delivery adds the fee in `content/settings.json`. There is no service fee and no card surcharge. Stripe’s processing fee is paid by the bakery. Sales tax is not calculated until a New York registration is active in Stripe Tax.
+
+## Inquiries
+
+Contact and wedding forms open the visitor’s email to `sweetandsourNY@gmail.com` until `RESEND_API_KEY` and `INQUIRY_FROM_EMAIL` are set.

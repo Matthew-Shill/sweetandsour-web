@@ -1,0 +1,41 @@
+{
+  "phoneDisplay": "(585) 645-3411",
+  "phoneTel": "+15856453411",
+  "email": "sweetandsourNY@gmail.com",
+  "serviceArea": "Rochester, NY",
+  "pickupNote": "We confirm the pickup spot by email after you order. There is no walk-in counter.",
+  "hours": [
+    {
+      "label": "Pickup and delivery",
+      "value": "Thursday–Sunday, 11:00 a.m.–4:00 p.m."
+    },
+    {
+      "label": "Notes and questions",
+      "value": "Any day. We reply within one business day."
+    }
+  ],
+  "replyNote": "We reply within one business day.",
+  "leadDays": 3,
+  "eventLeadWeeks": 6,
+  "pickupDays": [4, 5, 6, 0],
+  "pickupWindow": "11:00 a.m.–4:00 p.m.",
+  "deliveryFeeCents": 800,
+  "deliveryMinimumCents": 3000,
+  "pickupMinimumCents": 0,
+  "deliveryTowns": [
+    "Rochester",
+    "Brighton",
+    "Irondequoit",
+    "Henrietta",
+    "Pittsford",
+    "Penfield",
+    "Greece",
+    "Gates",
+    "Chili",
+    "Webster",
+    "Fairport",
+    "East Rochester"
+  ],
+  "socials": [],
+  "changePolicy": "Call or email us before we start baking if you need to change the order. Once baking starts, we cannot refund it, because the sweets were made for you."
+}
