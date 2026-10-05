@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 type Status =
@@ -62,6 +63,12 @@ export function ContactForm({ email }: { email: string }) {
         <span className="mb-2 block text-sm font-semibold">Message</span>
         <textarea name="message" required className="field-input" />
       </label>
+      <p className="text-sm leading-6">
+        We use your name, email, and message to reply.{" "}
+        <Link className="underline underline-offset-4" href="/privacy">
+          Privacy policy
+        </Link>
+      </p>
       <button type="submit" className="btn btn-primary w-full sm:w-auto" disabled={status.state === "sending"}>
         {status.state === "sending" ? "Sending…" : "Send a note"}
       </button>

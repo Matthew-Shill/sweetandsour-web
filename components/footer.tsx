@@ -81,11 +81,21 @@ export function Footer({ settings }: { settings: Settings }) {
                 Order Online
               </Link>
             </li>
+            <li>
+              <Link className="underline decoration-black/30 underline-offset-4" href="/privacy">
+                Privacy policy
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
       <div className="border-t border-black/10 px-5 py-5 text-center text-sm sm:px-8">
-        Sweet and Sour · {settings.serviceArea}
+        <p>Sweet and Sour · {settings.serviceArea}</p>
+        <p className="mt-2">
+          <Link className="underline decoration-black/30 underline-offset-4" href="/privacy">
+            Privacy policy
+          </Link>
+        </p>
       </div>
     </footer>
   );

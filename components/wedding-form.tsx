@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { zonedTodayISO } from "@/lib/dates";
 
@@ -103,7 +104,11 @@ export function WeddingForm({
       </label>
       <p className="text-sm leading-6">
         Please inquire at least {eventLeadWeeks} weeks ahead. If your date is sooner, send it
-        anyway. There is no payment on this form, and you do not need an account.
+        anyway. There is no payment on this form, and you do not need an account. We use what you
+        send to reply with a quote.{" "}
+        <Link className="underline underline-offset-4" href="/privacy">
+          Privacy policy
+        </Link>
       </p>
       <button type="submit" className="btn btn-primary w-full sm:w-auto" disabled={status.state === "sending"}>
         {status.state === "sending" ? "Sending…" : "Inquire About Weddings & Events"}

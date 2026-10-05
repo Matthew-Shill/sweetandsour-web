@@ -226,7 +226,12 @@ export function CheckoutForm({
         <p className="mt-4 text-sm leading-6">
           {payments === "off"
             ? "Card payment will go through Sweet and Sour's own Stripe account. It is not connected yet, so the next step explains that and does not charge a card."
-            : "No account. You finish payment on Stripe's secure page. We do not add a card surcharge. Stripe's standard online card fee is about 2.9% plus 30¢, and the bakery pays that. New York sales tax is not calculated until a registration is active."}
+            : "No account. You finish payment on Stripe's secure page. We do not add a card surcharge. Stripe's standard online card fee is about 2.9% plus 30¢, and the bakery pays that. New York sales tax is not calculated until a registration is active."}{" "}
+          We use your name, contact details, and delivery address to fill this order. Card details
+          are entered on Stripe&apos;s page.{" "}
+          <Link className="underline underline-offset-4" href="/privacy">
+            Privacy policy
+          </Link>
         </p>
         <button
           type="submit"
