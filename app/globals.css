@@ -8,7 +8,8 @@
   - Logo: public/brand/logo.png is the bakery's circular mark. The blush outside
     the ring is transparent so it can sit on the page. Script lettering stays
     inside that mark and is not used for headings.
-  - Favicon: app/icon.png is the same mark.
+  - Favicon: a circular S in the stamp's blush and black (app/favicon.ico,
+    app/icon.png, app/apple-icon.png), so the mark stays readable in a tab.
   - Photos: each menu item has a photo at public/menu, referenced from
     content/menu.json. Line drawings remain the fallback if an image is cleared.
   - Buttons use the accent with white type so they stay readable. Body text stays black.
