@@ -51,8 +51,8 @@ export function HomePage({ menu, settings }: { menu: Product[]; settings: Settin
 
   return (
     <>
-      <section className="px-5 py-16 sm:px-8 sm:py-24">
-        <div className="mx-auto grid max-w-6xl items-end gap-12 lg:grid-cols-12">
+      <section className="px-5 pt-6 pb-16 sm:px-8 sm:pt-8 sm:pb-24">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-12">
           <div className="lg:col-span-6">
             <p className="eyebrow">Rochester, NY</p>
             <h1 className="mt-4 font-display text-6xl font-medium leading-[0.92] sm:text-7xl lg:text-8xl">
@@ -80,7 +80,7 @@ export function HomePage({ menu, settings }: { menu: Product[]; settings: Settin
                 <ProductPhoto
                   product={lead}
                   priority
-                  className="aspect-[4/5] sm:aspect-[5/4]"
+                  className="aspect-[4/5] w-full sm:aspect-[5/4] lg:aspect-[3/2] lg:max-h-[calc(100svh-30rem)]"
                   sizes="(min-width: 1024px) 46vw, 100vw"
                 />
                 <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/35 to-transparent p-5 text-white">
